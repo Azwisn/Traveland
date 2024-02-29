@@ -14,7 +14,7 @@ body {
     /* background-image: url('C:/Users/anast/Desktop/Web/sky_.jpg'); */
     background-size: 100%;
     background-position: 0%;
-    
+
 }
 
 .img {
@@ -40,13 +40,15 @@ body {
     line-height: 36px;
     letter-spacing: 0.06em;
     text-align: left;
-    width: 124px;
+    width: 248px;
     height: 36px;
     top: 42px;
     left: 230px;
+    margin-left: 124px;
+    margin-top: 36px;
 }
 
-.home {
+/* .home {
     flex-direction: column;
     font-family: Roboto;
     font-size: 18px;
@@ -55,7 +57,53 @@ body {
     letter-spacing: 0em;
     text-align: left;
     width: 49px;
-    height: 27px; 
-    top: 47px; 
+    height: 27px;
+    top: 47px;
     left: 565px;
+    margin-top: 47px;
+    margin-left: 240px;
+} */
+
+.home{
+    margin-top: 47px;
+    /* margin-left: 27px; */
+    text-align: center;
+    width: 49px;
+}
+
+.location{
+    margin-top: 47px;
+    /* margin-left: 71px; */
+    text-align: center;
+    width: 142px;
+}
+
+.blog{
+    margin-top: 47px;
+    left: 565px;
+    width: auto;
+}
+
+.about{
+    margin-top: 47px;
+    /* margin-left: 49px; */
+    text-align: center;
+    width: 98px;
+}
+
+.contract{
+    margin-top: 47px;
+    margin-left: 64px;
+    left: 565px;
+    width: 64px;
+}
+
+.booking {
+    background: #C9453B;
+    text-align: center;
+    width: 163px; 
+    height: 51px; 
+    top: 49px; 
+    left: 1207px;
+    border-radius: 5px;
 }
