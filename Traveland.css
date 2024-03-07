@@ -4,6 +4,10 @@ body {
     height: 100%;
 }
 
+p {
+    margin: 0;
+}
+
 .full {
     display: flex;
     width: 100%;
@@ -32,7 +36,6 @@ body {
 }
 
 ._name {
-    flex-direction: column;
     font-family: Ribeye;
     font-size: 24px;
     font-weight: 400;
@@ -43,17 +46,23 @@ body {
     height: 36px;
     top: 42px;
     left: 230px;
-    margin-left: 124px;
+    margin-left: 230px;
     margin-top: 36px;
     color: #FFF;
-    /* letter-spacing: 1.44px; */
 }
 
-.blog, .about, .contract, .location{
+.blog,
+.about,
+.contract,
+.location {
     margin-left: 50px;
 }
 
-.blog, .about, .contract, .location, .home {
+.blog,
+.about,
+.contract,
+.location,
+.home {
     margin-top: 47px;
     width: auto;
     text-align: center;
@@ -89,17 +98,74 @@ body {
 
 .main_text {
     display: flex;
-    width: 804px;
-    height: 154px;
-    color: #FFF;
+    flex-direction: column;
+    /* position: relative; */
+    /* width: auto; */
+    /* heig     ht: 10%; */
+    /* width: 804px; */
+    /* height: 154px; */
+    /* color: #FFF; */
 }
 
 .top_text {
-    flex-direction: row;
     font-family: Gelasio;
     font-size: 65px;
     font-style: normal;
     font-weight: 700;
     line-height: 120%;
-    color: aqua;
+    color: rgb(255, 255, 255);
+    margin-left: 230px;
+    height: 100%;
+    margin-top: 8%;
+}
+
+.bottom_text {
+    opacity: 0.6;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    margin-left: 230px;
+    width: 458px;
+}
+
+.explore {
+    background: #C9453B;
+    text-align: center;
+    width: 163px;
+    height: 51px;
+    top: 49px;
+    left: 1207px;
+    border-radius: 5px;
+    margin-left: 172px;
+
+    margin-top: 35px;
+    /* background: #C9453B;
+    width: 163px;
+    height: 51px;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align:center;
+    margin-left: 230px; */
+}
+
+.explore_more {
+    margin-top: 14px;
+    color: #FFF;
+    width: auto;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    width: auto;
+    position: absolute; */
 }
