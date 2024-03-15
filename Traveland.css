@@ -18,12 +18,13 @@ p {
 .main_screen {
     background-size: 100%;
     background-position: 0%;
+    height: 900px;
 }
 
 .img {
     position: absolute;
     width: 100%;
-    height: auto;
+    height: 969px;
     z-index: -1;
 }
 
@@ -38,19 +39,23 @@ p {
 ._name {
     font-family: Ribeye;
     font-size: 24px;
-    font-weight: 400;
-    line-height: 36px;
-    letter-spacing: 0.06em;
+    /* font-weight: 400; */
+    /* line-height: 36px; */
+    letter-spacing: 0.019em;
     text-align: left;
     width: 248px;
     height: 36px;
     top: 42px;
     left: 230px;
-    margin-left: 16.7%;
+    margin-left: 14.4%;
     /* margin-left: 230px; */
-    margin-top: 3.2%;
+    margin-top: 3.3%;
     /* margin-top: 36px; */
     color: #FFF;
+}
+
+.home {
+    margin-left: 6.4%;
 }
 
 .blog,
@@ -58,7 +63,7 @@ p {
 .contract,
 .location {
     /* margin-left: 50px; */
-    margin-left: 3.7%;
+    margin-left: 3.5%;
 }
 
 .blog,
@@ -67,7 +72,8 @@ p {
 .location,
 .home {
     /* margin-top: 47px; */
-    margin-top: 3.7%;
+    font-family: Roboto;
+    margin-top: 3.6%;
     width: auto;
     text-align: center;
     font-size: 18px;
@@ -79,14 +85,14 @@ p {
 .booking {
     background: #C9453B;
     text-align: center;
-    width: 163px;
+    width: 10.15%;
     height: 51px;
-    top: 49px;
+    /* top: 49px; */
     left: 1207px;
     border-radius: 5px;
-    margin-left: 12.7%;
+    margin-left: 10.55%;
 
-    margin-top: 35px;
+    margin-top: 2.7%;
 }
 
 .booking_now {
@@ -116,11 +122,11 @@ p {
     font-size: 65px;
     font-style: normal;
     font-weight: 700;
-    line-height: 120%;
+    line-height: 170%;
     color: rgb(255, 255, 255);
-    margin-left: 16.7%;
+    margin-left: 13.7%;
     height: 100%;
-    margin-top: 8%;
+    margin-top: 12.7%;
 }
 
 .bottom_text {
@@ -131,14 +137,14 @@ p {
     font-style: normal;
     font-weight: 400;
     line-height: 160%;
-    margin-left: 16.7%;
-    width: 458px;
+    margin-left: 14.35%;
+    width: auto;
 }
 
 .explore {
     background: #C9453B;
     text-align: center;
-    width: 163px;
+    width: 1%;
     height: 51px;
     top: 49px;
     left: 1207px;
