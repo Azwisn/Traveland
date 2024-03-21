@@ -1,7 +1,7 @@
 body {
     margin: 0 !important;
-    width: auto;
-    height: 100%;
+    width: 100%;
+    height: auto;
 }
 
 p {
@@ -18,14 +18,14 @@ p {
 .main_screen {
     background-size: 100%;
     background-position: 0%;
-    height: 900px;
+    
 }
 
 .img {
     position: absolute;
     width: 100%;
-    height: 969px;
     z-index: -1;
+    transform: translateY(-9%);
 }
 
 .menu {
@@ -39,8 +39,6 @@ p {
 ._name {
     font-family: Ribeye;
     font-size: 24px;
-    /* font-weight: 400; */
-    /* line-height: 36px; */
     letter-spacing: 0.019em;
     text-align: left;
     width: 248px;
@@ -48,9 +46,7 @@ p {
     top: 42px;
     left: 230px;
     margin-left: 14.4%;
-    /* margin-left: 230px; */
-    margin-top: 3.3%;
-    /* margin-top: 36px; */
+    margin-top: 2.8%;
     color: #FFF;
 }
 
@@ -62,7 +58,6 @@ p {
 .about,
 .contract,
 .location {
-    /* margin-left: 50px; */
     margin-left: 3.5%;
 }
 
@@ -71,9 +66,8 @@ p {
 .contract,
 .location,
 .home {
-    /* margin-top: 47px; */
     font-family: Roboto;
-    margin-top: 3.6%;
+    margin-top: 2.95%;
     width: auto;
     text-align: center;
     font-size: 18px;
@@ -86,21 +80,21 @@ p {
     background: #C9453B;
     text-align: center;
     width: 10.15%;
-    height: 51px;
-    /* top: 49px; */
+    height: 60%;
     left: 1207px;
     border-radius: 5px;
-    margin-left: 10.55%;
+    margin-left: 10.45%;
 
-    margin-top: 2.7%;
+    margin-top: 2.17%;
 }
 
 .booking_now {
-    margin-top: 14px;
+    margin-top: 8.7%;
+    margin-left: 1.1%;
     color: #FFF;
     width: auto;
     font-family: Roboto;
-    font-size: 16px;
+    font-size: 100%;
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
@@ -109,58 +103,45 @@ p {
 .main_text {
     display: flex;
     flex-direction: column;
-    /* position: relative; */
-    /* width: auto; */
-    /* heig     ht: 10%; */
-    /* width: 804px; */
-    /* height: 154px; */
-    /* color: #FFF; */
 }
 
 .top_text {
     font-family: Gelasio;
-    font-size: 65px;
+    font-size: 425%;
     font-style: normal;
     font-weight: 700;
-    line-height: 170%;
+    line-height: 120%;
     color: rgb(255, 255, 255);
     margin-left: 13.7%;
     height: 100%;
     margin-top: 12.7%;
+    word-spacing: 0.5vw;
 }
 
 .bottom_text {
+    margin-top: 2%;
     opacity: 0.6;
     color: #FFF;
     font-family: Roboto;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 160%;
+    line-height: 165%;
     margin-left: 14.35%;
     width: auto;
+    word-spacing: 0.16vw;
 }
 
 .explore {
     background: #C9453B;
     text-align: center;
-    width: 1%;
-    height: 51px;
+    width: 11.65%;
+    height: 7%;
     top: 49px;
     left: 1207px;
     border-radius: 5px;
-    /* margin-left: 230px; */
-
-    margin-left: 16.7%;
-
-    margin-top: 35px;
-    /* background: #C9453B;
-    width: 163px;
-    height: 51px;
-    border-radius: 5px;
-    margin-top: 20px;
-    text-align:center;
-    margin-left: 230px; */
+    margin-left: 14.4%;
+    margin-top: 2.58%;
 }
 
 .explore_more {
@@ -174,25 +155,16 @@ p {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
+}
 
+.popular_Location {
+    position: absolute;
+    margin-top: 10vw;
+    width: 100%;
+    height: auto;
+    background-color: #FFF;
+}
 
-    /* margin-top: 14px;
-    color: #FFF;
-    width: auto;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%; */
-
-
-
-    /* color: #FFF;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
-    width: auto;
-    position: absolute; */
+.Location {
+    text-align: center;
 }
